@@ -1,0 +1,115 @@
+Embedded system development with Arduino
+
+
+Introduction to embedded systems and Arduino
+
+what is an embedded system ?
+overview of Arduino platform: hardware and software
+difference between microcontrollers and microprocessors
+real-world applications of Arduino-based embedded systems
+
+
+---features---
+
+* It has dedicated functionalities
+* It has real time operation
+* low limit of resource usage
+* high relayability
+* low power convension
+
+
+---overview of Arduino platform: hardware and software---
+
+Arduino is a most popular platform
+download software and get hardware component.
+write code in software and upload it to hardware component
+Arduino is a micro control
+Arduino is a component which can create electronic prototype projects.
+arduinouno : arduino uno has a chip
+
+usages of arduino :
+home automation system  - 
+ manually workingg lights,fans use arduino and set the push switch to an arduino and make it so that
+ you can switch on and off from the same place.
+
+
+usage of cable :
+code upload to hardware
+sms reading
+
+
+--used languages
+ c ,c++
+
+
+----microcontrollers vs microprocessors----
+
+--microcontroller
+embedded system ekak athule specific task ekak krnn hdpu punchi cerkit design ekaki
+
+--microprocessors
+specific deyk krnn nmei tiyenne.processing krnn tyenne.logic handle krnn tiyenne
+
+
+
+raspberry pi - 
+It can create large scale projects(It can coding python according to capacities)
+
+usages :
+Can be used as typing large scale bus root 
+It is used to show time in buses.
+using for cameras
+can insert sim
+dual display, 2k output
+You can remove the cpu and use it as a computer
+
+
+
+
+software contribution:
+
+
+// C++ code
+//
+void setup()
+{
+//pin number , pin eken ena data ek in krnwd out krnwd kiyna ek
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop()
+{
+//13 pin ekt valtage ekk denn// nwthila inn//off krnn //thathpryak delay wel inn
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
+  
+  
+
+  
+  
+Brief explanation :
+
+ * The things that need to happen only once are included in the void setup method.
+       void setup(){}
+
+  * Iterating is done in the loop method
+       void loop(){}
+
+  * pinMode(LED_BUILTIN, OUTPUT);
+        pinMode(pin number , whether the data coming from the pin is input or output)
+
+
+
+
+
+
+
+
+
+
+
+
+
